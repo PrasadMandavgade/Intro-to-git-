@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyNewApp';
+
+furits=['mango' , 'banana', 'apple']
+constructor(){}
+ngOnInit(){
+
+}
+login(name,password)
+{
+alert(name)
+}
 }
